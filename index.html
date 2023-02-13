@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Playable Piano JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="script.js" defer></script> -->
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header>
+            <h2>Playable PIANO</h2>
+            <div class="column volume-slider">
+                <span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
+            </div>
+            <div class="column keys-checkbox">
+                <span>Show Keys</span><input type="checkbox">
+            </div>
+        </header>
+        <ul class="piano-keys">
+            <li class="key white" data-key="a"><span>a</span></li>
+            <li class="key black w" data-key="w"><span>w</span></li>
+            <li class="key white" data-key="s"><span>s</span></li>
+            <li class="key black e" data-key="e"><span>e</span></li>
+            <li class="key white" data-key="d"><span>d</span></li>
+            <li class="key white" data-key="f"><span>f</span></li>
+            <li class="key black t" data-key="t"><span>t</span></li>
+            <li class="key white" data-key="g"><span>g</span></li>
+            <li class="key black y" data-key="y"><span>y</span></li>
+            <li class="key white" data-key="h"><span>h</span></li>
+            <li class="key black u" data-key="u"><span>u</span></li>
+            <li class="key white" data-key="j"><span>j</span></li>
+            <li class="key white" data-key="k"><span>k</span></li>
+            <li class="key black o" data-key="o"><span>o</span></li>
+            <li class="key white" data-key="l"><span>l</span></li>
+            <li class="key black p" data-key="p"><span>p</span></li>
+            <li class="key white" data-key="do"><span>;</span></li>
+        </ul>
+    </div>
+    <audio id="do" src="./tunes/;.wav" preload="auto"> </audio>
+    <audio id="a" src="./tunes/a.wav" preload="auto"> </audio>
+    <audio id="d" src="./tunes/d.wav" preload="auto"> </audio>
+    <audio id="e" src="./tunes/e.wav" preload="auto"> </audio>
+    <audio id="f" src="./tunes/f.wav" preload="auto"> </audio>
+    <audio id="g" src="./tunes/g.wav" preload="auto"> </audio>
+    <audio id="h" src="./tunes/h.wav" preload="auto"> </audio>
+    <audio id="j" src="./tunes/j.wav" preload="auto"> </audio>
+    <audio id="k" src="./tunes/k.wav" preload="auto"> </audio>
+    <audio id="l" src="./tunes/l.wav" preload="auto"> </audio>
+    <audio id="o" src="./tunes/o.wav" preload="auto"> </audio>
+    <audio id="p" src="./tunes/p.wav" preload="auto"> </audio>
+    <audio id="s" src="./tunes/s.wav" preload="auto"> </audio>
+    <audio id="t" src="./tunes/t.wav" preload="auto"> </audio>
+    <audio id="u" src="./tunes/u.wav" preload="auto"> </audio>
+    <audio id="w" src="./tunes/w.wav" preload="auto"> </audio>
+    <audio id="y" src="./tunes/y.wav" preload="auto"> </audio>
+
+    <!-- <audio preload="auto" id="player" src="./tunes/t.wav">
+        <source src="./tunes/a.wav" class="a">
+        <source src="./tunes/d.wav" class="d">
+        <source src="./tunes/;.wav" class=";">
+        <source src="./tunes/e.wav" class="e">
+        <source src="./tunes/f.wav" class="f">
+        <source src="./tunes/g.wav" class="g">
+        <source src="./tunes/h.wav" class="h">
+        <source src="./tunes/j.wav" class="j">
+        <source src="./tunes/k.wav" class="k">
+        <source src="./tunes/l.wav" class="l">
+        <source src="./tunes/o.wav" class="o">
+        <source src="./tunes/p.wav" class="p">
+        <source src="./tunes/s.wav" class="s"> -->
+    <!-- <source src="./tunes/t.wav" class="t"> -->
+    <!-- <source src="./tunes/u.wav" class="u">
+        <source src="./tunes/w.wav" class="w">
+        <source src="./tunes/y.wav" class="y"> -->
+
+    <script src="text.js"></script>
+</body>
+
+</html>
